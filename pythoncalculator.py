@@ -26,22 +26,3 @@ if "-" in expression:
       print(a,"-",b,"=",a-b)
   else:
       print("Error, use only 2 expressions, like a-b")
-      
-#if "*" in expression: #(Development)
-#  numbers = expression.split("+")
-#  if len(numbers) == 2:
-#      a = float(numbers[0])
-#      b = float(numbers[1])
-#      print(a,"+",b,"=",a+b)
-#  else:
-#      print("Error, use only 2 expressions, like a+b")
-      
-#if "/" in expression: #(Development)
-#  numbers = expression.split("+")
-#  if len(numbers) == 2:
-#      a = float(numbers[0])
-#      b = float(numbers[1])
-#      print(a,"+",b,"=",a+b)
-# else:
-#      print("Error, use only 2 expressions, like a+b")
-
